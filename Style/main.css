@@ -1,0 +1,117 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body {
+    background: var(--preto);
+    font-family: Arial,'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#FFF;
+}
+
+/*Filme principal*/
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(41, 39, 39, 0.522), rgba(22, 21, 10, 0.427) 50%), url('/Netflix/img/img-fundothegooddoctor.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-attachment:fixed;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+@media screen and (min-width: 800px) {
+.filme-principal {
+    background-size: 100% cover;
+}
+    
+}
+
+.filme-principal .descricao {
+    margin-bottom: 30px;
+    margin-top: 12px;
+}
+
+.titulo {
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.filme-principal .container {
+    width:70%;
+}
+
+
+.botao {
+    background-color:rgba(0,0,0,.50);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 35px;
+    margin-left: 20px;
+    
+    cursor:pointer;
+    transition: .4s ease all;
+}
+button:hover {
+    border: 0.5px solid white;
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 7px;
+}
+
+.box-filme {
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+}

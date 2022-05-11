@@ -1,0 +1,11 @@
+The Good Doctor
+Sua mente é um mistério, seus métodos são um milagre.
+
+Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.
+
+    background-color:rgba(0,0,0,.50);
+    margin: none;
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
